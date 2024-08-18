@@ -1,0 +1,62 @@
+body {
+  background-image: url("../img/old-world-clock.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  background: #ecd9c1;
+  font-size: 18px;
+  border: none;
+  color: #4e3c22;
+}
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: rgba(206, 162, 101, 0.85);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 15px 10px 10px rgba(125, 84, 53, 0.8);
+  color: #4e3c22;
+}
+.city {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #987648;
+  padding: 30px 0;
+}
+
+.date {
+  opacity: 0.9;
+}
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #664e2e;
+  font-size: 16px;
+}
+a {
+  color: #382a16;
+}
